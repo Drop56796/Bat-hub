@@ -28,11 +28,11 @@ local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
 local Tab2 = Window:CreateTab("Tab Example 2") -- Title, Image
 local Section = Tab:CreateSection("Section Example",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
-   Name = "Button Example",
+   Name = "Synapse X Exeutor Script",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = 'Changable',
    Callback = function()
-   print(loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Main-ui/Main-ui/Main%20ui%20(in%20github).lua"))())
+   print('loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Synapse-X/X.Synapse.to/x.synapse.to.lua"))()')
    end,
 })
 local Toggle = Tab:CreateToggle({
