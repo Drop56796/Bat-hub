@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Bathub V1",
-   LoadingTitle = "Bathub V1 loading",
+   Name = "Bathub V1 is ready!",
+   LoadingTitle = "Bathub V1 loading(Main Ui:Arrayfield)",
    LoadingSubtitle = "By slience",
    ConfigurationSaving = {
       Enabled = true,
@@ -68,7 +68,7 @@ local Button = Tab:CreateButton({
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = '●Button●',
    Callback = function()
-   loading(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Floor-2-candle-By-icherryKardess-/The-Floor-2-candle-(By-icherryKardess)/Floor2%20candle%20(The%20candle%20by%20icherrykardess).lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Floor-2-candle-By-icherryKardess-/The-Floor-2-candle-(By-icherryKardess)/Floor2%20candle%20(The%20candle%20by%20icherrykardess).lua"))()
    end,
 })
 
