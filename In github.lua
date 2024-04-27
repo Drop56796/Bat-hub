@@ -1,12 +1,12 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Arrayfield Example Window",
-   LoadingTitle = "Arrayfield Interface Suite",
-   LoadingSubtitle = "by Arrays",
+   Name = "Bathub",
+   LoadingTitle = "Bathub loading",
+   LoadingSubtitle = "by slience",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
-      FileName = "Arrayfield"
+      FileName = "Make by slience"
    },
    Discord = {
       Enabled = false,
@@ -17,7 +17,7 @@ local Window = Rayfield:CreateWindow({
    KeySettings = {
       Title = "Create Checkpoint 1",
       Subtitle = "Key System",
-      Note = "",
+      Note = "Bilibili:slienceScript",
       FileName = "SiriusKey",
       SaveKey = false,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
@@ -32,7 +32,7 @@ local Button = Tab:CreateButton({
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = 'Changable',
    Callback = function()
-   print('loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Main-ui/Main-ui/Main%20ui%20(in%20github).lua"))()')
+   print(loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Main-ui/Main-ui/Main%20ui%20(in%20github).lua"))())
    end,
 })
 local Toggle = Tab:CreateToggle({
