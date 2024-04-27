@@ -2,7 +2,7 @@ local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-I
 local Window = Rayfield:CreateWindow({
    Name = "Bathub",
    LoadingTitle = "Bathub loading",
-   LoadingSubtitle = "by slience",
+   LoadingSubtitle = "by slience(Main Ui:Arrayfield)",
    ConfigurationSaving = {
       Enabled = true,
       FolderName = nil, -- Create a custom folder for your hub/game
@@ -33,15 +33,6 @@ local Button = Tab:CreateButton({
    Interact = 'Changable',
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Synapse-X/X.Synapse.to/x.synapse.to.lua"))()
-   end,
-})
-local Toggle = Tab:CreateToggle({
-   Name = "Toggle Example",
-   Info = "Toggle info/Description.", -- Speaks for itself, Remove if none.
-   CurrentValue = false,
-   Flag = "Toggle1", -- A flag is the identifier for the configuration file, make sure every element has a different flag if you're using configuration saving to ensure no overlaps
-   Callback = function(Value)
-      print(Value)
    end,
 })
 local ColorPicker = Tab:CreateColorPicker({
@@ -117,8 +108,8 @@ local SingleSelection = Tab:CreateDropdown({
     print(Option)
    end,
 })
-local Label = Tab:CreateLabel("Thanks for using Arrayfield, there were alot of issues but here we are!",Section)
-local Paragraph = Tab:CreateParagraph({Title = "Paragraph Example", Content = "Paragraph Example"},Section)
+local Label = Tab:CreateLabel("你的用户名:"..game.Players.LocalPlayer.Character.Name",Section)
+local Paragraph = Tab:CreateParagraph({Title = "You using exeutor", Content = "..identifyexecutor()"},Section)
 local Sets = Tab:CreateSection('Set Functions',false)
 local SButton
 SButton = Tab:CreateButton({
