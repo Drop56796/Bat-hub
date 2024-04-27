@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
-   Name = "Bathub",
-   LoadingTitle = "Bathub loading",
+   Name = "Bathub V1",
+   LoadingTitle = "Bathub V1 loading",
    LoadingSubtitle = "by slience(Main Ui:Arrayfield)",
    ConfigurationSaving = {
       Enabled = true,
@@ -108,8 +108,8 @@ local SingleSelection = Tab:CreateDropdown({
     print(Option)
    end,
 })
-local Label = Tab:CreateLabel("你的用户名:"..game.Players.LocalPlayer.Character.Name",Section)
-local Paragraph = Tab:CreateParagraph({Title = "You using exeutor", Content = "..identifyexecutor()"},Section)
+local Label = Tab:CreateLabel("Welcome",Section)
+local Paragraph = Tab:CreateParagraph({Title = "update:", Content = "ui Redo it."},Section)
 local Sets = Tab:CreateSection('Set Functions',false)
 local SButton
 SButton = Tab:CreateButton({
