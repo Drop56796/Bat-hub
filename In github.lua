@@ -32,7 +32,7 @@ local Button = Tab:CreateButton({
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = 'Changable',
    Callback = function()
-   print('loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Synapse-X/X.Synapse.to/x.synapse.to.lua"))()')
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Synapse-X/X.Synapse.to/x.synapse.to.lua"))()
    end,
 })
 local Toggle = Tab:CreateToggle({
