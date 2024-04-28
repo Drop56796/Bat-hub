@@ -64,6 +64,15 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Troll Mode",
+   Info = "Button info/Description.", -- Speaks for itself, Remove if none.
+   Interact = '●Button●',
+   Callback = function()
+   loadstring(game:HttpGet("https://glot.io/snippets/gotfeffesc/raw/main.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Fear Mode",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = '●Button●',
@@ -106,15 +115,6 @@ local Button = Tab:CreateButton({
    Interact = '●Button●',
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/main/Fragmented"))()
-   end,
-})
-
-local Button = Tab:CreateButton({
-   Name = "Hazy Mode",️
-   Info = "Button info/Description.", -- Speaks for itself, Remove if none.
-   Interact = '●Button●',
-   Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Jabiess/main/Hazy%20Mode.lua"))()
    end,
 })
 
