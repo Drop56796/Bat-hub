@@ -112,7 +112,7 @@ local Button = Tab:CreateButton({
 local Label = Tab:CreateLabel("BatHub is loading Welcome",Section)
 local Paragraph = Tab:CreateParagraph({Title = "Update", Content = "Part of the script mode loading"},Section)
 local Paragraph = Tab:CreateParagraph({Title = "Version", Content = "V1.1"},Section)
-local Paragraph = Tab:CreateParagraph({Title = "Warning!", Content = "Please use in the doors super hard mode "},Section)
+local Paragraph = Tab:CreateParagraph({Title = "Warning!", Content = "The Mode Please use in the doors super hard mode "},Section)
 local Section = Tab:CreateSection("Hub",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
    Name = "MSHUB V5",
