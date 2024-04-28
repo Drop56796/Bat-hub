@@ -1,6 +1,6 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
-   Name = "bathub",
+   Name = "bathub(doors)",
    LoadingTitle = "Bathub loading(Main Ui:Arrayfield)",
    LoadingSubtitle = "By slience",
    ConfigurationSaving = {
@@ -33,6 +33,15 @@ local Button = Tab:CreateButton({
    Interact = '●Button●',
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/JevilOhio/Doors-Hardcore-noonie-ver-/main/Doors%20Hardcore%20(noonie)"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Keyboard",
+   Info = "Button info/Description.", -- Speaks for itself, Remove if none.
+   Interact = '●Button●',
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/advxzivhsjjdhxhsidifvsh/mobkeyboard/main/main.txt", true))()
    end,
 })
 
@@ -103,6 +112,7 @@ local Button = Tab:CreateButton({
 local Label = Tab:CreateLabel("BatHub is loading Welcome",Section)
 local Paragraph = Tab:CreateParagraph({Title = "Update", Content = "Part of the script mode loading"},Section)
 local Paragraph = Tab:CreateParagraph({Title = "Version", Content = "V1.1"},Section)
+local Paragraph = Tab:CreateParagraph({Title = "Warning!", Content = "Please use in the doors super hard mode "},Section)
 local Section = Tab:CreateSection("Hub",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
    Name = "MSHUB V5",
