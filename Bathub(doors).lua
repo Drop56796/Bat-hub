@@ -43,7 +43,7 @@ local Button = Tab:CreateButton({
    Callback = function()
    loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Jabiess/main/Hazy%20Mode.lua"))()
    end,
-   })
+})
 
 local Button = Tab:CreateButton({
    Name = "Keyboard",
