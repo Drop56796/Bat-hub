@@ -46,6 +46,16 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Extreme Mode",
+   Info = "Button info/Description.", -- Speaks for itself, Remove if none.
+   Interact = '●Button●',
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/munciseek/Scriptmode/main/Extreme"))()
+   end,
+})
+
+
+local Button = Tab:CreateButton({
    Name = "Impossible mode V1.8",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = '●Button●',
