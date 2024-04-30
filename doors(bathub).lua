@@ -118,11 +118,29 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Button = Tab:CreateButton({
+   Name = "Hazy Mode",
+   Info = "Button info/Description.", -- Speaks for itself, Remove if none.
+   Interact = '●Button●',
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Jabiess-Hazy-Mode-/main/Hazy%20Mode.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
+   Name = "Nightmare Mode",
+   Info = "Button info/Description.", -- Speaks for itself, Remove if none.
+   Interact = '●Button●',
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/nightmare/main/nightmare%20mode.lua"))()
+   end,
+})
+
 local Label = Tab:CreateLabel("BatHub is loading Welcome",Section)
-local Paragraph = Tab:CreateParagraph({Title = "Update", Content = "Part of the script mode loading"},Section)
-local Paragraph = Tab:CreateParagraph({Title = "Version", Content = "V1.1"},Section)
+local Paragraph = Tab:CreateParagraph({Title = "Update", Content = "Hazy mode and Nightmare mode is loading"},Section)
+local Paragraph = Tab:CreateParagraph({Title = "Version", Content = "V2"},Section)
 local Paragraph = Tab:CreateParagraph({Title = "Warning!", Content = "The Mode Please use in the doors super hard mode "},Section)
-local Section = Tab:CreateSection("Hub",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
+local Section = Tab:CreateSection("Doors Hub",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
    Name = "MSHUB V5",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
@@ -132,6 +150,7 @@ local Button = Tab:CreateButton({
    end,
 })
 
+local Section = Tab:CreateSection("Other Hub",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
    Name = "Catheter Hub",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
