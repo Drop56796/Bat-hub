@@ -1,7 +1,7 @@
 local Rayfield = loadstring(game:HttpGet('https://raw.githubusercontent.com/UI-Interface/CustomFIeld/main/RayField.lua'))()
 local Window = Rayfield:CreateWindow({
-   Name = "bathub(doors)",
-   LoadingTitle = "Bathub loading(Main Ui:Arrayfield)",
+   Name = "Trauma Hub",
+   LoadingTitle = "Trauma Hub is loading",
    LoadingSubtitle = "By slience",
    ConfigurationSaving = {
       Enabled = true,
@@ -21,7 +21,7 @@ local Window = Rayfield:CreateWindow({
       FileName = "SiriusKey",
       SaveKey = false,
       GrabKeyFromSite = false, -- If this is true, set Key below to the RAW site you would like Rayfield to get the key from
-      Key = "BatKey_45078b972538a846"
+      Key = "Trauma_45078b972538a846"
    }
 })
 local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
@@ -69,7 +69,7 @@ local Button = Tab:CreateButton({
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = '●Button●',
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Noah-Dark/Noah-Dark-Mode-Script-V1/Darknightmare.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Noah-Dark/Noah-Dark-Mode-Script-V1/Darknightmare%20Mode%20V3.lua"))()
    end,
 })
 
