@@ -65,11 +65,11 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "Noah Dark Mode",
+   Name = "DarkNightmare Mode V3",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = '●Button●',
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Noah-Dark/Noah-Dark-Mode-Script-V1/Noah%20Darknightmare.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Noah-Dark/Noah-Dark-Mode-Script-V1/Darknightmare.lua"))()
    end,
 })
 
