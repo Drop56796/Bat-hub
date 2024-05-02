@@ -24,8 +24,8 @@ local Window = Rayfield:CreateWindow({
       Key = "Trauma_45078b972538a846"
    }
 })
-local Tab = Window:CreateTab("Tab Example", 4483362458) -- Title, Image
-local Tab2 = Window:CreateTab("Tab Example 2") -- Title, Image
+local Tab = Window:CreateTab("look Here>>>", 4483362458) -- Title, Image
+local Tab2 = Window:CreateTab("coming soon...") -- Title, Image
 local Section = Tab:CreateSection("mode and item",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
    Name = "Hardcore Mode",
@@ -65,11 +65,11 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
-   Name = "DarkNightmare Mode V3",
+   Name = "DarkNightmare Mode V6",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = '●Button●',
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Noah-Dark/Noah-Dark-Mode-Script-V1/Darknightmare%20Mode%20V3.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Noah-Dark/Noah-Dark-Mode-Script-V1/Darknightmare%20Mode%20V6.lua"))()
    end,
 })
 
@@ -146,10 +146,10 @@ local Button = Tab:CreateButton({
    end,
 })
 
-local Label = Tab:CreateLabel("BatHub is loading Welcome",Section)
-local Paragraph = Tab:CreateParagraph({Title = "Update", Content = "Hazy mode and Nightmare mode is loading"},Section)
-local Paragraph = Tab:CreateParagraph({Title = "Version", Content = "V2"},Section)
-local Paragraph = Tab:CreateParagraph({Title = "Warning!", Content = "The Mode Please use in the doors super hard mode "},Section)
+local Label = Tab:CreateLabel("TraumaHub is loading Welcome",Section)
+local Paragraph = Tab:CreateParagraph({Title = "Update", Content = "Extreme Mode and Darknightmare Mode is loading"},Section)
+local Paragraph = Tab:CreateParagraph({Title = "Version", Content = "V3"},Section)
+local Paragraph = Tab:CreateParagraph({Title = "Warning!", Content = "The Mode Please use in the doors super hard mode"},Section)
 local Section = Tab:CreateSection("Doors Hub",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
 local Button = Tab:CreateButton({
    Name = "MSHUB V5",
