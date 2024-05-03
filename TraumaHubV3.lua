@@ -129,6 +129,15 @@ local Button = Tab:CreateButton({
 })
 
 local Button = Tab:CreateButton({
+   Name = "Psychotic Mode V1",
+   Info = "Button info/Description.", -- Speaks for itself, Remove if none.
+   Interact = '●Button●',
+   Callback = function()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/Psychotic%20mode.lua"))()
+   end,
+})
+
+local Button = Tab:CreateButton({
    Name = "Hazy Mode",
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = '●Button●',
@@ -147,7 +156,7 @@ local Button = Tab:CreateButton({
 })
 
 local Label = Tab:CreateLabel("TraumaHub is loading Welcome",Section)
-local Paragraph = Tab:CreateParagraph({Title = "Update", Content = "Extreme Mode and Darknightmare Mode is loading"},Section)
+local Paragraph = Tab:CreateParagraph({Title = "Update", Content = "Sorry, darkNightmare mode is out of service Psychotic mode is loading..."},Section)
 local Paragraph = Tab:CreateParagraph({Title = "Version", Content = "V3"},Section)
 local Paragraph = Tab:CreateParagraph({Title = "Warning!", Content = "The Mode Please use in the doors super hard mode"},Section)
 local Section = Tab:CreateSection("Doors Hub",false) -- The 2nd argument is to tell if its only a Title and doesnt contain element
