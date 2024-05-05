@@ -133,7 +133,7 @@ local Button = Tab:CreateButton({
    Info = "Button info/Description.", -- Speaks for itself, Remove if none.
    Interact = '●Button●',
    Callback = function()
-   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/Psychotic%20mode.lua"))()
+   loadstring(game:HttpGet("https://raw.githubusercontent.com/Drop56796/Psychotic-mode/main/mode.lua"))()
    end,
 })
 
